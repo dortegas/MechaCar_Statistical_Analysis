@@ -1,3 +1,5 @@
+# Linear Regression to Predict MPG
+
 # 3. Load dplyr package
 library(tidyverse)
 
