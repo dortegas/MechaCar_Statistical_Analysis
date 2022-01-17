@@ -29,9 +29,9 @@ We can conclude that the performance of this model performs well with the curren
 The weight capacities of multiple suspension coils were tested to determine if the MechaCar manufacturing process is consistent across production lots. We created in R the following summary statistics using the MechaCar Suspension_Coil.csv dataset:
 
 -	The mean, median, variance, and standard deviation of the suspension coil’s PSI
-coil_measure.png
+<img src="Resources/coil_measure.png" width="450" /> 
 -	The mean, median, variance, and standard deviation of the suspension coil’s PSI by Manufacturing Lot
-lot_measures.png
+<img src="Resources/lot_measures.png" width="450" />  
 
 The variance for the entire dataset indicates the current manufacturing data meets the 100 pounds per square inch variance limitation. However, analyzing by manufacturing lot, the third lot showcases a higher variance of 170.3. Therefore, the current manufacturing data does not meet the design specification for all manufacturing lots in total and each lot individually.
 
