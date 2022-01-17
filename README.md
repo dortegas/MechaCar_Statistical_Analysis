@@ -17,7 +17,7 @@ The newest AutosRUs’ prototype MechaCar is suffering production troubles which
 ## Linear Regression to Predict MPG
 The MechaCar_mpg.csv file contains fuel efficiency (mpg) test results for 50 prototype MechaCars. To predict the mpg of MechaCar prototypes using more than one variable from the MechaCar_mpg.csv dataset, we defined a multiple linear regression model with the metrics vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance as independent variables. Using R, we got the outcomes:
 
-<img src="Resources/mpg_lm.png" />
+<img src="Resources/mpg_lm.png" width="300" />
 
 According to our results, vehicle length and ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model, so vehicle length and ground clearance have a significant impact on fuel efficiency.
 
