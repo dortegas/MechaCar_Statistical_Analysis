@@ -33,6 +33,7 @@ The weight capacities of multiple suspension coils were tested to determine if t
 <img src="Resources/coils_measures.png" width="450" /> 
 
 -	The mean, median, variance, and standard deviation of the suspension coil’s PSI by Manufacturing Lot
+
 <img src="Resources/lot_measures.png" width="450" />  
 
 The variance for the entire dataset indicates the current manufacturing data meets the 100 pounds per square inch variance limitation. However, analyzing by manufacturing lot, the third lot showcases a higher variance of 170.3. Therefore, the current manufacturing data does not meet the design specification for all manufacturing lots in total and each lot individually.
@@ -42,15 +43,18 @@ The variance for the entire dataset indicates the current manufacturing data mee
 We performed a T-Test on Suspension Coils dataset to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 The outcomes using the t.test() function with a sample of 20% of total objects to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch are following.
-t_test_overall.png
+
+<img src="Resources/t_test_overall.png" width="450" /> 
 
 The p-value of our analysis is 0.96, therefore we can state that there is sufficient evidence to reject our null hypothesis, which means that there are no statistical differences between the sample and the population mean.
 
 We got the following results using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
 
-t_test_lot1.png
-t_test_lot2.png
-t_test_lot3.png
+<img src="Resources/t_test_lot1.png" width="450" /> 
+
+<img src="Resources/t_test_lot2.png" width="450" /> 
+
+<img src="Resources/t_test_lot3.png" width="450" /> 
 
 According with our analysis outcomes, Manufacturing Lot #3 has statistical differences with the population mean with a p-value of 0.042 smaller than our assumed significance level of 0.05%. Therefore, there is sufficient evidence to reject the null hypothesis.
 
