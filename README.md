@@ -53,10 +53,10 @@ We got the following results using the t.test() function and its subset() argume
   - Manufacturing Lot 1
 <img src="Resources/t_test_lot1.png" width="400" /> 
 
-Manufacturing Lot 2
+  - Manufacturing Lot 2
 <img src="Resources/t_test_lot2.png" width="400" /> 
 
-Manufacturing Lot 3
+  - Manufacturing Lot 3
 <img src="Resources/t_test_lot3.png" width="400" /> 
 
 According with our analysis outcomes, Manufacturing Lot #3 has statistical differences with the population mean with a p-value of 0.042 smaller than our assumed significance level of 0.05%. Therefore, there is sufficient evidence to reject the null hypothesis.
