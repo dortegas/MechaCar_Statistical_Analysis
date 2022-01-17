@@ -63,6 +63,16 @@ According with our analysis outcomes, Manufacturing Lot #3 has statistical diffe
 
 ## Study Design: MechaCar vs Competition
 
-To compare the performance of the MechaCar vehicles against the performance of vehicles from other manufacturers, one of the most consumer's interest metrics is the city or highway fuel efficiency, according to the <a href="https://www.statista.com/topics/1487/automotive-industry/">automotive industry worldwide</a> statistics and facts.
+To compare the performance of the MechaCar vehicles against the performance of vehicles from other manufacturers, one of the most consumer's interest metrics is the city or highway fuel efficiency, according to the <a href="https://www.statista.com/topics/1487/automotive-industry/">automotive industry worldwide</a> statistics and facts. In my opinion, this metric could be related to the cost of vehicles maintenance, therefore it is important to analyze the differences in the average city or highway fuel efficiency between MecharCar vehicles and competition vehicles.
+
+ - H0: MechaniCal vehicle has no difference between average city or highway fuel efficiency with the competition's vehicle most sold in Mexico.
+ - Ha: MechaniCal vehicle has difference between average city or highway fuel efficiency with the competition's vehicle most sold in Mexico.
+
+Considering the city or highway fuel efficiency is continuous, we could employ the Two-sample t-test to evaluate differences in fuel efficiency between MecharCar and the competition's vehicle.
+
+Data Requirement:
+
+Source A. MecharCar sample data set of fuel efficiency since 2019, at least.
+Source B. Sample data set of fuel efficiency since 2019 of Nissan and Kia Motors similar MechaCar model.
 
 
