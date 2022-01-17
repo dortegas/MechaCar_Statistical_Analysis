@@ -62,3 +62,7 @@ We got the following results using the t.test() function and its subset() argume
 According with our analysis outcomes, Manufacturing Lot #3 has statistical differences with the population mean with a p-value of 0.042 smaller than our assumed significance level of 0.05%. Therefore, there is sufficient evidence to reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition
+
+To compare the performance of the MechaCar vehicles against the performance of vehicles from other manufacturers, one of the most consumer's interest metrics is the city or highway fuel efficiency, according to the <a href="https://www.statista.com/topics/1487/automotive-industry/">automotive industry worldwide</a> statistics and facts.
+
+
