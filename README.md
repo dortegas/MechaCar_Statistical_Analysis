@@ -72,7 +72,7 @@ Considering the city or highway fuel efficiency is continuous, we could employ t
 
 Data Requirement:
 
-Source A. MecharCar sample data set of fuel efficiency since 2019, at least.
-Source B. Sample data set of fuel efficiency since 2019 of Nissan and Kia Motors similar MechaCar model.
+  - Source A. MecharCar sample data set of fuel efficiency since 2019, at least.
+  - Source B. Sample data set of fuel efficiency since 2019 of Nissan and Kia Motors similar MechaCar model.
 
 
