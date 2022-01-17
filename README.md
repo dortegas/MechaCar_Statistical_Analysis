@@ -50,7 +50,7 @@ The p-value of our analysis is 0.96, therefore we can state that there is suffic
 
 We got the following results using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
 
-Manufacturing Lot 1
+  - Manufacturing Lot 1
 <img src="Resources/t_test_lot1.png" width="400" /> 
 
 Manufacturing Lot 2
